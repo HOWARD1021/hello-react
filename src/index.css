@@ -1,0 +1,68 @@
+	 
+body{
+	background: url('./css/road.jpg')  center center fixed no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  font-size: 14px;
+  background-color:#c3a3a3 ;
+  border: 3px solid #f1f1f1;
+}
+.comment{
+	margin:10px ;
+	padding:10px;
+	border: 3px solid #F8C3CD;
+}	
+
+.flex{
+	display:flex;
+	}
+
+.flex div {
+	border:solid 1px;
+	padding:3px;
+	margin-right:10px;
+	cursor:pointer;
+	font-size:20px;
+}
+
+.list {
+	border:solid 1px;
+	width:250px;
+	display:flex;
+	position:relative; 
+    padding:6px;
+    height:36px;
+}
+
+.list-item_checked {
+text-decoration:line-through;	
+ color:red;
+
+}
+
+.list-item_state{
+margin:0 10px;
+}
+
+
+.list-item_action {
+	position:absolute;
+	right:0;
+	top:1px;
+	bottom:5px;
+}
+
+button {
+	margin-left:5px;
+}
+.list-item_name {
+	font-size:20px;
+}
